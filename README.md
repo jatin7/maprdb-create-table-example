@@ -4,5 +4,5 @@ You should have the `mapr-hbase` package installed, as this package provides the
 
 ```
 mvn package
-java -cp `hbase classpath`:target/*.jar com.mapr.example.CreateTable
+java -cp `hbase classpath`:target/HBaseCreateTable-1.0-SNAPSHOT.jar com.mapr.example.CreateTable
 ```
